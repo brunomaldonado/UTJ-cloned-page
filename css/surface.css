@@ -1,0 +1,168 @@
+header nav .slideshow-container {
+  top: 120px;
+  padding: 10px;
+}
+
+.prev,
+.next {
+  display: none;
+}
+
+main .slideshow-container {
+  width: 100%;
+  display: block;
+  top: 240px;
+}
+
+main .slideshow-container img {
+  max-width: 530px;
+  height: 220px;
+}
+
+main .container {
+  position: relative;
+  top: 255px;
+
+  min-width: 325px;
+  max-width: 395px;
+}
+
+main .container img {
+  width: 375px;
+  height: 170px;
+}
+
+main .container-title-header {
+  width: 375px;
+}
+
+/* main .container-list {
+  border: 1px solid #333fff;
+} */
+
+main .container-list i.fa{
+  display: inline-block;
+  font-size: 2rem;
+  position: absolute;
+  right: 15px;
+  line-height: 1.2;
+}
+
+main .main-container-banners { 
+  top: 250px;
+  margin-top: 20px;
+}
+
+.main-container--card img { 
+  width: 375px;
+  height: 170px;
+  border-radius: 8px 8px 4px 4px;
+}
+
+main .main-container--title {
+  width: 375px;
+  border-radius: 0 0 8px 8px;
+}
+
+
+main .container ul li {
+  margin: 0px auto;
+}
+
+main .main-container--social-media {
+  top: 250px;
+}
+
+.main-container--social-media h1 {
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+.social-media {
+  width: 435px;
+}
+
+main .social-media i.fa {
+  width: 50px;
+  padding: 5px;
+  font-size: 4rem;
+}
+
+.description {
+  margin-right: 5rem;
+}
+
+footer {
+  top: 240px;
+}
+
+.footer-container--card img {
+  display: block;
+  width: 375px;
+  height: 170px;
+  border-radius: 8px;
+  /* border-radius: 8px 8px 4px 4px; */
+}
+
+footer .footer-container--title-blur {
+  width: 375px;
+  border-radius: 0 0 8px 8px;
+}
+
+footer .footer-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+footer .footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-right li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.img-log-UTyP {
+  max-width: 130px;
+}
+
+.img-log-SICyT {
+  width: 240px;
+}
+
+.img-log-ISO {
+  width: 282px;
+}
+
+footer .footer-copyright {
+  display: flex;
+}
+
+footer .footer-site-map {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-division {
+  display: grid;
+  grid-template-columns: 1fr; 
+  margin-left: 0;
+  margin-top: 0;
+
+}
+
+footer .footer-site-map h2 {
+  margin-left: 0;
+}
+
+footer .copyright {
+  font-weight: 800;
+  font-size: 1.6rem;
+}

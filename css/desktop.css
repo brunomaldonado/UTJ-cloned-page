@@ -1,0 +1,226 @@
+
+header {
+  height: 375px;
+}
+
+header nav {
+  width: 1018px;
+  margin: 0 auto;
+}
+
+header nav .nav-logo img {
+  width: 500px;
+  top: 1px;
+  left: 10px;
+}
+
+header nav .nav-logo-anniversary img {
+  width: 125px;
+  top: 5px;
+  right: 10px;
+}
+
+header nav .navbar-toggle {
+  display: none;
+}
+
+header nav .nav-menu {
+  width: 1018px;
+  height: 590px;
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  opacity: 1;
+  z-index: 1;
+  background-image: none;
+}
+
+header nav .nav-menu li {
+  list-style: none;
+  background-color: #5e5e5e;
+  color: #fff;
+  /* font-size: 1.3rem; */
+  padding: 1.5rem;
+}
+
+header nav .nav-menu li:hover{
+  background-color: #444444;
+  cursor: pointer;
+}
+
+header nav .nav-menu li a {
+  color: #f3f3f3;
+  font-weight: 200;
+  font-size: 1.4rem;
+} 
+
+
+/*  ================================================================= main */
+
+main {
+  background-color: #f2f2f2;
+}
+
+main .slideshow-container {
+  position: absolute;
+  top: 240px;
+  padding: 5px;
+}
+
+main .slideshow-container img {
+  max-width: 1018px;
+  height: 265px;
+}
+
+.main-container {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+main .container {
+  position: relative;
+  top: 75px;
+  background-color: #eee8e8;
+}
+
+main .container img {
+  width: 335px;
+  height: 160px;
+}
+
+main .container-title-header {
+  width: 335px;
+}
+
+
+main .container ul li, .container ul li a {
+  font-weight: bold;
+  color: green;
+  padding: 2px;
+  font-size: 1.4rem;
+}
+
+main .main-container-banners {
+  background-color: #eee8e8;
+  width: 340px;
+  /* margin-right: 0;
+  margin-left: 0; */
+  position: relative;
+  top: 75px;
+  margin-right: 5px;
+  margin-top: 0px;
+}
+
+.main-container--card img { 
+  width: 335px;
+  height: 150px;
+  border-radius: 0;
+}
+
+main .main-container--title {
+  width: 335px;
+  border-radius: 0;
+}
+
+main .container-list {
+  width: 335px;
+}
+
+main .container-list i.fa{
+  display: inline-block;
+  font-size: 2rem;
+  position: absolute;
+  right: 5px;
+  line-height: 1.2;
+}
+
+/* ================================================================= social media */
+
+main .main-container--social-media {
+  top: 75px;
+}
+
+.main-container--social-media h1 {
+  font-size: 1.6rem;
+  display: none;
+}
+
+main .social-media {
+  display: flex;
+  justify-content:center;
+}
+
+.description {
+  display: none;
+}
+
+/* ================================================================= footer */
+footer {
+  top: 70px;
+}
+
+footer .footer-partners {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; 
+  align-items: center; */
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.footer-partners ul {
+  margin: 0px;
+}
+
+footer .footer-left {
+  display: flex;
+}
+
+footer .footer-right {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.img-log-jalisco {
+  width: 100px;
+}
+
+footer .footer-contact {
+  margin-left: 0;
+} 
+
+footer .footer-site-map {
+  max-width: 375px;
+  margin-right: 0;
+  margin-bottom: 50px;
+}
+
+.footer-division2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  align-self: center;
+  width: 650px;
+}
+
+.footer-division {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  align-self: center;
+}
+.footer-site-map ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer-contact p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
