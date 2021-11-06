@@ -25,6 +25,13 @@ nav .nav-logo-anniversary-inside img {
   display: none;
 }
 
+header nav .navbar-toggle {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  transition: 0.s 0.1s;
+}
+
 header nav .nav-menu li {
   line-height: 35px;
   position: relative;
@@ -45,9 +52,6 @@ header nav .nav-menu li a{
   font-size: 1.8rem;
 }
 
-main {
-  
-}
 
 main .slideshow-container {
   position: relative;
@@ -107,7 +111,7 @@ display: inline-block;
 font-size: 2rem;
 position: absolute;
 right: 12px;
-line-height: 1.6;
+line-height: 1.4;
 }
 
 main .container-list ul {

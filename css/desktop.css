@@ -280,7 +280,11 @@ footer .footer-contact {
 footer .footer-site-map {
   max-width: 375px;
   margin-right: 0;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
+}
+
+.footer-site-map h2 {
+  line-height: 2;
 }
 
 .footer-division2 {
