@@ -6,17 +6,17 @@
 
 .slideshow-container {
   position: absolute;
-  top: 226px;
+  top: 238px;
 }
 
 .slideshow-container img {
-  height: 240px;
-  padding: 3px 14px;
+  height: 270px;
+  padding: 3px 7px;
 }
 
 main .container {
   position: relative;
-  top: 255px;
+  top: 280px;
 
   min-width: 325px;
   max-width: 395px;
@@ -60,15 +60,15 @@ main .main-container--social-media {
 .social-media {
   display: grid;
   grid-template-columns: repeat(3, 125px);
-  grid-gap: 6px;
+  /* grid-gap: 6px; */
   padding: 26px 0;
 }
 
-main .social-media i.fa {
+/* main .social-media i.fa {
   width: 40px;
   padding: 7px;
   font-size: 2.6rem;
-}
+} */
 
 
 
@@ -156,5 +156,11 @@ footer .copyright {
     grid-template-columns: repeat(2, minmax(288px, 305px));
     grid-gap: 10px;
     place-content: center;
+    margin-right: 10px;
   }
+
+  .footer-container--card {
+    margin-left: 10px;
+  }
+
 }

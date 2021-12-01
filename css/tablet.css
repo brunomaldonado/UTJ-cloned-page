@@ -27,8 +27,8 @@ nav .nav-logo-anniversary-inside img {
 
 header nav .navbar-toggle {
   position: absolute;
-  top: 30px;
-  right: 5px;
+  top: 35px;
+  right: 6px;
   transition: 0.s 0.1s;
 }
 
@@ -155,10 +155,12 @@ main .main-container--title-blur {
 footer {
   top: 330px;
 }
+
+
 .footer-container-banners {
   padding: 22px 16px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 345px));
+  grid-template-columns: repeat(2, minmax(300px, 375px));
   grid-gap: 12px;
   place-content: center;
 }

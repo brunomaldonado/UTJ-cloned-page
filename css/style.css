@@ -59,11 +59,12 @@ header nav .navbar-toggle {
   border: transparent;
   background-color: rgba(0, 0, 0, 0.171);
   border: transparent;
+  /* background-color: transparent; */
   border-radius: 4px;
-  padding: 5px;
-  width: 55px;
+  padding: 4px 0;
+  width: 45px;
   position: absolute;
-  top: 21px;
+  top: 25px;
   right: 5px;
   transition: 0.2s 0.1s;
   z-index: 1;
@@ -78,9 +79,8 @@ header nav .navbar-toggle span {
   display: block;
   background-color: #080808;
   height: 4px;
-  width: 30px;
-  margin: 8px auto;
-  border-radius: 2px;
+  width: 32px;
+  margin: 6px auto;
 }
 
 header nav .nav-menu li {
@@ -141,7 +141,9 @@ header nav .nav-menu.active {
 }
 
 header nav button .br-1.animations {
-  transform: rotate(-45deg) translate(-10px, 7px);
+  transform: rotate(-45deg) translate(-7px, 7px);
+  /* background-color: red; */
+  border-radius: 1.5em;
 }
 
 header nav button .br-2.animations {
@@ -149,7 +151,9 @@ header nav button .br-2.animations {
 }
 
 header nav button .br-3.animations {
-  transform: rotate(45deg) translate(-10px, -7px);
+  transform: rotate(45deg) translate(-7px, -7px);
+  border-radius: 1.5em;
+  /* background-color: red; */
 }
 
 main {
@@ -265,8 +269,6 @@ main .container-list i.fa{
 
 
 .main-container-banners {
-  /* border: 1px solid #313131;
-  background-color: #85aec9; */
   position: relative;
   top: 210px;
   padding: 17px 10px;
@@ -276,7 +278,23 @@ main .container-list i.fa{
   place-content: center;
 }
 
-main .main-container--card:hover {
+.main-container--card {
+  transition: 450ms all;
+}
+
+.main-container--card:hover ~ .main-container--card {
+  /* transform: translate3d(2px, 0, 0); */
+}
+
+.main-container-banners:hover .main-container--card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+
+
+.main-container--card:hover {
   cursor: pointer;
 }
 
@@ -337,25 +355,35 @@ main .main-container--title {
   background-color: #f2f2f2;
   text-align: center;
   border-radius: 50%;
-  align-items: center;
+  width: 36px;
+  padding: 8px;
 }
-
-main .social-media i.fa {
-  width: 38px;
-  padding: 6px;
-  font-size: 2.4rem;
-  align-items: center
+i.fa{
+  font-size: 2rem;
+  text-align: center;
 }
 
 .share a {
+  text-decoration: none;
   vertical-align: middle;
-  margin-right: 8px;
+  color: #000;
 }
+
+.ribbon {
+  border-radius: 50%;
+  width: 37px;
+  padding: 5px;
+  background-color: #597785;
+  text-align: center;
+}
+
 
 .description {
   font-size: 1.3rem;
   font-family: 'Poppins', sans-serif;
-  line-height: 1.2;
+  line-height: 1.1;
+  margin-left: 8px;
+  /* white-space: nowrap; */
 }
 
 .share {
@@ -363,12 +391,12 @@ main .social-media i.fa {
   align-items: center;
 }
 
-.fa-twitter{
+.fa-twitter {
   background-color: #00acee;
   color: white;
 }
 
-.fa-youtube{
+.fa-youtube {
   background-color: #c4302b;
   color: white;
 }
@@ -387,6 +415,7 @@ main .social-media i.fa {
   background-color: #398805;
   color: white;
 }
+
 .fa-map {
   background-color: #0e76a6;
   color: white;
@@ -406,6 +435,7 @@ main .social-media i.fa {
   background-color: #0c53ec;
   color: white;
 }
+
 .fa-university {
   background-color: #0e76a6;
   color: white;
@@ -435,11 +465,18 @@ footer {
 .footer-container--card {
   display: grid;
   grid-template-rows: 175px;
+  transition: 450ms all;
 }
 
-.footer-container--card:hover {
-  cursor: pointer;
+.footer-container--card:hover ~ .footer-container--card {
+  transform: translate3d(2px, 0, 0);
 }
+
+.footer-container-banners:hover .footer-container--card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .footer-container-img img {
   width: 100%;
   height: 175px;
@@ -474,7 +511,9 @@ footer {
 }
 
 /* ============= partners ============== */
-
+.footer-partners {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+}
 
 footer .footer-partners {
   background-color: #eee8e8;
@@ -610,7 +649,7 @@ footer .copyright {
   color: #f2f2f2;
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 360px) {
   header .nav-logo img {
     width: 255px;
     position: absolute;
